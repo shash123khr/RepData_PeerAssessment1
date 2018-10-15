@@ -1,9 +1,10 @@
-# Reproducible Research: Peer Assessment 1
+﻿# Reproducible Research: Peer Assessment 1
 
 
 
 ## Loading and preprocessing the data
-##### 1. Load the data (i.e. read.csv())
+##### 
+1. Load the data (i.e. read.csv())
 
 ```r
 if(!file.exists('activity.csv')){
@@ -81,8 +82,10 @@ numMissingValues <- length(which(is.na(activityData$steps)))
 
 * Number of missing values: 2304
 
-##### 2. Devise a strategy for filling in all of the missing values in the dataset.
-##### 3. Create a new dataset that is equal to the original dataset but with the missing data filled in.
+##### 
+2. Devise a strategy for filling in all of the missing values in the dataset.
+##### 
+3. Create a new dataset that is equal to the original dataset but with the missing data filled in.
 
 ```r
 activityDataImputed <- activityData
